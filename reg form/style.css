@@ -1,0 +1,139 @@
+/*CSS Reset*/
+*{
+    margin:0;
+    padding:0;
+    
+}
+#navbar{
+    display:flex;
+    align-items: center;
+    background-color: #89b1a9;
+    height:60px;
+}
+#navbar ul{
+    display:flex;
+   
+}
+#navbar ul li{
+  color:white;
+  list-style: none;
+  font-size: 1.5rem;
+  margin-left: 2%;
+
+}
+#navbar ul li a{
+    display:block;
+    padding:6px 15px;
+    border-radius:18px;
+    text-decoration: none;
+    color:white;
+    
+}
+#navbar ul li a:hover{
+   color:black;
+   background-color: wheat;   
+}
+contact-box form{
+    width:80%;
+}
+/* Footer */
+
+.h-primary{
+    font-size:26px;
+}
+.btn{
+    font-size: 13px;
+    padding: 4px 8px;
+}
+#contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 34px;
+}
+ 
+#contact-box textarea{
+    width: 85%;
+    padding: 0.5rem;
+    border-radius: 9px;
+    font-size: 1.1rem;   
+} 
+#contact-box input{
+    width: 40%;
+    padding: 0.5rem;
+    border-radius: 9px;
+    font-size: 1.1rem;   
+}
+#contact-box form{
+    width: 40%;
+   
+}
+#contact-box label{
+   font-size: 1.3rem;
+   font-family: 'Bree Serif', serif;
+
+}#contact{
+    position: relative;
+}
+.btn{
+    padding: 6px 20px;
+    border: 2px solid white;
+    background-color: #89b1a9;
+    color: black;
+    margin: 17px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    cursor:pointer;
+    margin-left:40%;
+}
+footer{
+    background: #89b1a9;
+    color: white;
+    padding: 9px 20px;
+}
+
+.h-primary{
+    font-family: 'Bree Serif', serif;
+    font-size: 3.8rem;
+    padding: 12px;
+}
+
+.h-secondary{
+    font-family: 'Bree Serif', serif;
+    font-size: 2.3rem;
+    padding: 12px;
+}
+
+.center{
+    text-align: center;
+}
+.form-group1{
+    max-width:800px;
+    border-radius: 10px;
+}
+#name,#email,#phone{
+    margin-top: 3%;
+}
+.required
+{
+    color: red;  
+}
+#country{
+    max-width: 70%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    margin-bottom: 3%;  
+}
+.gender{
+    font-size: 1.3rem;
+    font-family: 'Bree Serif', serif;
+}
+.form-group3{
+    width:43%;
+    border-radius: 9px;
+    font-size: 1.2rem;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    border: 2px solid black;
+}
